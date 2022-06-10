@@ -1,0 +1,23 @@
+.fg{
+    align-items:baseline;
+}
+.shad{
+    box-shadow: 14px 40px whitesmoke;
+    border-radius: 0 0 5px 5px;
+}
+.tys{
+    align-items: center !important;
+    justify-content: center !important;
+}
+@media (max-width:767px) {
+    #at767none{
+        display: none !important;
+    }
+    #at767noneA{
+        display: none !important;
+    }
+    .shad{
+        box-shadow:none;
+        border-radius:none;
+    }
+}
